@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.pagewrapper {
+    display: flex;
+    height: 100vh;
+}
+
+.left {
+    width: 75vw;
+    padding: 1em;
+    background-color: rgb(255, 232, 244);
+}
+
+div {
+    display: flex;
+    justify-content: center;
+}
+
+.right {
+    width: 25vw;
+    background-color: rgb(255, 206, 224);
+    border: 2px solid black;
+    border-style: dotted;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}

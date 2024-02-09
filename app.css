@@ -34,3 +34,7 @@ form {
     justify-content: center;
     margin-top: 5%;
 }
+
+@media print {
+    
+}

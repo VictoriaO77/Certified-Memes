@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", function () {
         eventData.preventDefault(); // stop page reload when form is submitted
         console.log(eventData.target);
         var formData = new FormData(eventData.target);
-        formData = Object.fromEntries(fromData);
+        formData = Object.fromEntries(formData);
 
         // update certificate information when form is submitted:
         let nameOutput = document.getElementById('nameOutput');

@@ -22,19 +22,23 @@ div {
     justify-content: center;
 }
 
-.right {
-    width: 25vw;
-    background-color: rgb(255, 206, 224);
-    border: 2px solid black;
-    border-style: dotted;
-}
-
 form {
     display: flex;
     justify-content: center;
     margin-top: 5%;
 }
 
+.A {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    padding: 170px;
+}
+
 @media print {
-    
+    .right * {
+        display: none;
+    }
 }
